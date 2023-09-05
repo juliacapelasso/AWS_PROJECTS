@@ -1,0 +1,34 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE MEDIDAS DE SEGURANÇA
+
+Data: 05/09/2023
+Empresa: Abstergo Industries 
+Responsável: Julia Capelasso
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa SuperFarma, realizado por Julia Capelasso. O objetivo do projeto foi elencar 3 medidas de segurança em conjunto dos serviços da AWS, com a finalidade de realizar aumentar a segurança na empresa.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 medidas de segurança. A seguir, serão descritas as etapas da implementação:
+
+Medida 1: 
+- AWS Identity and Access Management (IAM). Usar o AWS IAM para criar políticas de acesso granulares para seus usuários, grupos e funções. Implementar o princípio do menor privilégio, concedendo acesso apenas aos recursos e ações necessários. Configurar a autenticação de dois fatores (2FA) para contas de usuário e ative a auditoria para monitorar as atividades de IAM em sua conta AWS.
+
+Medida 2: 
+- AWS CloudTrail e Amazon GuardDuty. Ativar o AWS CloudTrail para rastrear todas as atividades em sua conta AWS. Configurar alertas e integre-o com o Amazon S3 e o Amazon CloudWatch para armazenamento e análise de logs. Além disso, implementar o Amazon GuardDuty para detectar automaticamente ameaças e atividades maliciosas em sua infraestrutura, emitindo alertas em tempo real.
+
+Medida 3: 
+- AWS Key Management Service (KMS) e AWS Shield. Utilizar o AWS KMS para criptografar dados em repouso e em trânsito. Gerenciar chaves de criptografia e políticas de acesso para proteger informações sensíveis. Além disso, implementar o AWS Shield para mitigar ataques Distributed Denial of Service (DDoS) e proteger seus aplicativos e recursos contra interrupções causadas por ataques de alto tráfego.
+
+
+## Conclusão
+A implementação de ferramentas na empresa SuperFarma tem como esperado aumentar a segurança na empresa, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+## Anexos
+
+https://aws.amazon.com/pt/iam/
+https://aws.amazon.com/pt/cloudtrail/
+https://aws.amazon.com/pt/guardduty/
+
+Assinatura do Responsável pelo Projeto:
+
+Julia Capelasso
