@@ -1,0 +1,41 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 05/09/2023
+Empresa: Abstergo Industries 
+Responsável: Julia Capelasso
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa SuperFarma, realizado por Julia Capelasso. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- AWS Trusted Advisor
+- O AWS Trusted Advisor oferece recomendações em tempo real para otimizar recursos na AWS, reduzindo custos e melhorando o desempenho.
+- Utilize o AWS Trusted Advisor para identificar recursos subutilizados, como instâncias EC2 ociosas, volumes EBS não utilizados e endereços IP elásticos sem associações. Implemente as recomendações fornecidas pelo Trusted Advisor para economizar dinheiro, desligando ou redimensionando recursos não utilizados.
+
+Etapa 2: 
+- AWS Cost Explorer
+- O AWS Cost Explorer é uma ferramenta de análise de custos que ajuda a entender como os recursos estão sendo utilizados e a identificar oportunidades de redução de custos.
+-  Utilize o AWS Cost Explorer para analisar seu histórico de custos e identificar tendências de gastos. Crie relatórios personalizados para visualizar os custos por serviço, por região e por marcação. Identifique os principais impulsionadores de custos e tome medidas para otimizar o uso de recursos, como alterar tipos de instâncias EC2 ou reservar instâncias sob demanda.
+
+Etapa 3: 
+- AWS Lambda
+- O AWS Lambda permite executar código sem a necessidade de provisionar ou gerenciar servidores, o que pode reduzir significativamente os custos operacionais.
+- Revisite suas cargas de trabalho existentes e identifique processos que podem ser automatizados. Crie funções AWS Lambda para executar tarefas programadas ou acionadas por eventos, como redimensionamento automático de instâncias EC2 ou desligamento de recursos não utilizados fora do horário comercial. Isso ajudará a reduzir os custos operacionais ao eliminar a necessidade de manter instâncias em execução continuamente.
+
+
+
+## Conclusão
+A implementação de ferramentas na empresa SuperFarma tem como esperado reduzir custos e melhorar o desempenho, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+## Anexos
+https://aws.amazon.com/aws-cost-management/aws-cost-explorer/
+https://aws.amazon.com/premiumsupport/technology/trusted-advisor/
+https://aws.amazon.com/lambda/
+
+
+Assinatura do Responsável pelo Projeto:
+
+Julia Capelasso.
